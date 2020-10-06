@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <label for="numberOfDice">How many dice are needed:</label>
+
+    <input type="text" id="numberOfDice"  required>
+
+    <br>
+
+    <button class="RollButton"
+        type="button">
+        Roll Dice
+    </button>
+
+    <br>
+
+    Total <span id="TotalOfAmountOnDice"> </span>
+    <!--Roll total: <span id='dice-total'></span><br>-->
+
+    <br>
+
+    <button class="ShowAllRollsButton"
+        type="button">
+        Show All Rolls
+    </button>
+    
+
+    <br>
+
+    <ol id="OrderedDiceList"></ol>
+
+    <button id="resetButton"
+    type="button">
+    Reset
+</button>
+
+    <script src="script/main.js"></script>
+       
+    
+</body>
+</html>
